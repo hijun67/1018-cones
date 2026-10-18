@@ -1,0 +1,10 @@
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+# 정적 파일(sitemap, robots, ads.txt, 프리렌더된 페이지)이 먼저 제공되고,
+# 나머지 경로는 SPA 로 폴백합니다.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

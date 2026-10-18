@@ -1,0 +1,6 @@
+{
+  "name": "운수 (Unsu) - 오늘의 운세 & 사주 대통",
+  "description": "오늘의 운수, 정통 사주 오행 분석, 띠별·별자리 운세, 타로 카드, 포춘쿠키 및 행운의 부적을 제공하는 한국 정통 & 모던 운세 플랫폼 '운수(Unsu)'입니다.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
